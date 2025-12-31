@@ -8,7 +8,7 @@ function App() {
     };
 
     useEffect(() => {
-        const emojis = [ "🌿", "✨", "🤍", "🌸", "🌙"];
+        const emojis = [ "🌿", "✨", "🤍", "🌸"];
         const container = document.getElementById("emoji-background");
 
         function createEmoji() {
@@ -45,15 +45,6 @@ function App() {
                 {/* Subtitle */}
                 <p className="subtitle fade-in">Every moment of 2025, lovingly sealed.</p>
                 
-                
-                {/* Cute Stickers */}
-                <div className="stickers fade-in-delay">
-                    <span className="sticker">✨</span>
-                    <span className="sticker">💫</span>
-                    <span className="sticker">⭐</span>
-                    <span className="sticker">🌟</span>
-                    <span className="sticker">💝</span>
-                </div>
                 
                 {/* Section Title */}
                 <h2 className="section-title fade-in-delay">🔒 The Capsule</h2>
